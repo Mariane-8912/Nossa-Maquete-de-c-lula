@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    background-color: #F5F5F5;
+}
+
+.menu{
+    text-decoration: none;
+    color: #444444;
+}
+
+.menu:hover{
+    color: white;
+    background-color: #9C7340;
+}
+
+.logo{
+    width: 100px;
+}
+
+li{
+    display: inline-block;
+    margin: 0 20px;
+}
+
+h1{
+    font-family: "Playfair Display", serif;
+    color: #333333;
+}
+
+p{
+    color: #666666;
+}
+
+
+section{
+    text-align: center;
+}
+
+footer{
+    background-color: #2F2F2F;
+    color: #FFFFFF;
+}
