@@ -3,21 +3,51 @@
     margin: 0;
     padding: 0;
     font-family: "Montserrat", sans-serif;
-    background-color: #F5F5F5;
+    background-color: #ffffff;
 }
 
-.menu{
+body{
+    margin: 0;
+    padding: 100px;
+}
+
+.menuprincipal{
+    position: fixed;
+    top: 10px;
+    right: 100px;
+}
+
+.itensprincipal{
+    text-decoration: none;
+    color: #444444;
+    padding: 10px;
+    margin: 0px;
+}
+
+.itensprincipal:hover{
+    text-decoration: none;
+    color: #ff85e5;
+    background-color: #a3015f;
+}
+
+.menuorganelas{
     text-decoration: none;
     color: #444444;
 }
 
-.menu:hover{
-    color: white;
-    background-color: #9C7340;
+.itensorganelas{
+    text-decoration: none;
+    color: #444444
+}
+
+.itensorganelas:hover{
+    text-decoration: none;
+    color: #a3015f;
 }
 
 .logo{
     width: 100px;
+    top: 10px;
 }
 
 li{
@@ -34,12 +64,16 @@ p{
     color: #666666;
 }
 
-
-section{
-    text-align: center;
+header{
+    position: fixed;
+    top: 0px;
 }
 
 footer{
     background-color: #2F2F2F;
     color: #FFFFFF;
+    position: fixed;
+    bottom: 0px;
+    text-align: center;
+    width: 100%;
 }
