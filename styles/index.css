@@ -52,10 +52,6 @@ header {
   width: 85%;
 }
 
-.apresentacao {
-  color: #333333
-}
-
 .itensprincipal:hover {
   color: #ffffff;
   background-color: #a3015f;
@@ -80,7 +76,8 @@ p {
 
 .apresentacao {
   margin: 25px 0;
-  text-align: center;
+  text-align: justify;
+  color: #333333
 }
 
 .menuorganelas {
