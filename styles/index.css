@@ -47,6 +47,10 @@ header {
   transition: 0.3s;
 }
 
+.fotoGrupo {
+  text-align: center;
+  width: 900px;
+}
 .itensprincipal:hover {
   color: #ffffff;
   background-color: #a3015f;
