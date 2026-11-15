@@ -47,6 +47,12 @@ header {
   transition: 0.3s;
 }
 
+.organelasTitulo{
+  font-family: "Playfair Display", serif;
+  color: #a3015f;
+  margin-bottom: 10px;  
+}
+
 .fotoGrupo {
   text-align: center;
   width: 85%;
